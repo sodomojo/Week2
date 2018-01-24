@@ -19,20 +19,18 @@ sales_tax = float(0.09)
 license_fee = float(0.05)
 dealer_prep = float(0.03)
 
-# calculate the
+# calculate the total taxes for the car purchase.  multiply each tax by the purchase price
 sales_price = purchase_price * sales_tax
 license_price = purchase_price * license_fee
 dealer_price = purchase_price * dealer_prep
 
+# calculate the total purchase price by adding all sales tax amounts to purchase price
 full_tax_price = purchase_price * (sales_tax + license_fee + dealer_prep)
 total_price = purchase_price + full_tax_price
 
-'''
-create a user id function 
-will take the last four characters of the user's last name
-combine last four characters with area code from user's phone number
-
-'''
+# create a user id function
+# will take the last four characters of the user's last name
+# combine last four characters with area code from user's phone number
 
 
 def user_id():
