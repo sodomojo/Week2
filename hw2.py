@@ -51,8 +51,11 @@ print("Hello {} {}. \n".format(buyer_first_name, buyer_last_name))
 print("Thank you for your purchase of a {} {}.  The following is a \
 breakdown of your total price: \n".format(car_make, car_model))
 
-# each tax should display the hundredth decimal place
-print("Sales tax: ${} \n".format("%.2f" % sales_price))
+# Print the purchase price and outputs of each associated tax.
+# Should display the hundredth decimal place for each value
+print("Sales Price: ${} \n".format("%.2f" % purchase_price))
+
+print("Tax: ${} \n".format("%.2f" % sales_price))
 
 print("Licensing Fee: ${} \n".format("%.2f" % license_price))
 
