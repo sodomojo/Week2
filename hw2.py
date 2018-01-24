@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 
 """
+This program will take user generated inputs related to a car purchase
+and will calculate the taxes and total price of the purchase based on those given values.
+
+Assumptions
+* User has a first and last name
+* User knows their car make and car model
+
 
 """
 
